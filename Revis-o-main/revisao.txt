@@ -1,0 +1,80 @@
+Requisito
+
+- Typescrpit
+- Banco: MongoDb
+- ORM: mongoose
+- transpile: ts-node
+- nodemon para livre reaload
+- Framework - express
+- Teste: Jest
+- Insomia: Crud test
+
+Terminal - Dep
+
+node -v
+npm init -y
+npm i -D typescript ts-node @types/node @types/express jest nodemon
+npm i express mongoose
+
+src paste
+ app.ts
+
+npx ts-node 
+
+package.json/scripts:
+
+"start": "ts-node src/s.ts" 
+
+- schema - estrutura
+
+usuario/schemas/book.schema.ts (schema no mongoose)
+
+- model: metodos da estrutura
+
+criar schema e exporta uma model.. model("nome", schema)
+
+type - definir o tipo de um elemento
+
+-- services
+
+nome.service.ts
+
+(export default x export normal..)
+
+-- controllers
+
+book.controller.ts
+
+-- routes.ts
+
+testar - rotas.. 
+
+insommia - e mongodb
+
+post http://localhost:3000/books
+
+passar JSON - copiar o json do type e add os dados
+
+send
+
+timestamp..
+
+retorno de promessa.. async wait para resolver
+
+criar o crud no service e no controller..
+
+e add no routes
+
+ depois criar mais uma rota de Get para chamar
+
+criar o CRUD e ir testando
+
+
+
+
+
+
+
+
+
+
